@@ -1,0 +1,244 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+
+*::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.header {
+  width: 100%;
+  background: #ffffff;
+}
+
+.header nav {
+  display: flex;
+  padding: 24px 5%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo .web {
+  color: #2196f3;
+}
+
+.nav {
+  display: flex;
+  margin-left: 90px;
+}
+
+.nav li {
+  display: flex;
+  margin: auto 25px;
+}
+
+.nav li a,
+.info a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.nav li a.current,
+.info a.current {
+  color: #2196f3;
+}
+
+.info {
+  display: inline-flex;
+  margin-left: auto;
+}
+
+.info a {
+  margin: auto 25px;
+}
+
+.info a.tell {
+  color: #757575;
+}
+
+.page-section {
+  background: #2f303a;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.page-section div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+}
+
+.main-button {
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  margin: 0 auto;
+  border-width: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  padding: 10px 32px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.titles {
+  display: flex;
+  padding: 0 5%;
+}
+
+.titles li {
+  margin: 0 15px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.names {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.images li img {
+  width: 320px;
+  height: auto;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 50px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-section {
+  background: #f5f4fa;
+  padding: 52px 0;
+}
+
+.card {
+  background: #ffffff;
+  flex: 1 1 25%;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4,
+.card p {
+  width: 100%;
+  text-align: center;
+}
+
+.card h4 {
+  margin: 25px 0 0;
+  color: #212121;
+}
+
+.card p {
+  margin: 0 0 25px;
+}
+
+footer {
+  padding: 72px 5%;
+  background: #2f303a;
+}
+
+.logo.alt {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+footer address {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+footer a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
