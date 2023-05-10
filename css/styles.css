@@ -18,16 +18,18 @@ body {
   color: #757575;
 }
 
+
 /* header */
 
 .header {
   width: 100%;
   background: #ffffff;
+  padding: 0 160px;
 }
 
 .header nav {
   display: flex;
-  padding: 24px 5%;
+  padding: 24px 0;
 }
 
 .logo {
@@ -44,12 +46,12 @@ body {
 
 .nav {
   display: flex;
-  margin-left: 90px;
+  margin-left: 70px;
 }
 
 .nav li {
   display: flex;
-  margin: auto 25px;
+  margin: auto 18px;
 }
 
 .nav-list-item a,
@@ -68,8 +70,16 @@ body {
 }
 
 .info-link {
+  height: 16px;
   margin: auto 25px;
   color: #757575;
+  display: flex;
+  vertical-align: middle;
+}
+
+.info-link svg {
+  margin: auto;
+  margin-right: 10px;
 }
 
 .info-link:hover, .info-link:active {
@@ -142,6 +152,25 @@ body {
   color: white;
 }
 
+/* advantages */
+
+.advantages-section{
+  display: flex;
+  justify-content: center;
+}
+
+.advantages-icon {
+  width: 100%;
+  height: 120px;
+  background-color: #F5F4FA;
+  display: flex;
+  border-radius: 4px;
+}
+
+.advantages-icon svg {
+  margin: auto;
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -153,11 +182,21 @@ body {
 
 .titles {
   display: flex;
-  padding: 0 5%;
+  padding: 0 15px;
 }
 
 .titles li {
   margin: 0 15px;
+}
+
+.names li {
+  width: 270px;
+
+}
+/* what we are doing */
+
+.doing-section {
+  margin-bottom: 94px;
 }
 
 .section-title {
@@ -171,7 +210,6 @@ body {
 
 .names {
   padding-top: 72px;
-  padding-bottom: 72px;
 }
 
 .images li img {
@@ -181,9 +219,8 @@ body {
 
 .images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 12px;
-  padding-bottom: 50px;
 }
 
 /* Наша команда  */
